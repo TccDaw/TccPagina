@@ -64,9 +64,8 @@
 
 				<p:commandButton id="botaoRemover" value="remover"
 					update="plantasTable"
-					action="#{indexBeanPlanta.removerPlanta(planta.id_planta)}">
-				</p:commandButton>
-
+					action="#{indexBeanPlanta.removerPlanta(planta.id_planta)}" />
+			
 				<p:commandButton id="botaoEditar" value="editar"
 					update="plantasTable" ajax="false"
 					action="#{indexBeanPlanta.editarPlanta(planta.id_planta)}">
