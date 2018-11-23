@@ -3,7 +3,7 @@
 	<persistence-unit name="banco" transaction-type="RESOURCE_LOCAL">
 	
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<non-jta-data-source>java:/tccDS</non-jta-data-source>
+		<non-jta-data-source>java:/provaDS</non-jta-data-source>
 	
 		<class>entidades.Usuario</class>
 		<class>entidades.Planta</class>
